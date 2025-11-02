@@ -132,7 +132,7 @@ python Inference.py --routeid 100 --direction 0 --test_date 2025-09-23 --day 3 -
 
 ---
 
-## 重現步驟（TL;DR）
+## 重現步驟
 
 1) **統計**（輸出 `StatisticResult/`）
 ```bash
