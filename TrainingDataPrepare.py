@@ -29,7 +29,7 @@ def InitHistoryDriveTimeTable(ROUTEID, DAY, DIRECTION):
                 """
                 下面的金耀之後要改成你的
                 """
-                gmaps = googlemaps.Client(key="AIzaSyDJc1F7pdkSA6m_SvpnG1qkrX5fAyRU3Yg")
+                gmaps = googlemaps.Client(key="")
                 result = gmaps.distance_matrix(departStop, destinationStop, mode="driving", departure_time="now")
                 duration = result['rows'][0]['elements'][0]['duration']['value']
                 certain_sechudle_driveTime[idx] = duration 
